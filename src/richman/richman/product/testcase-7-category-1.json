@@ -1,0 +1,29 @@
+[
+  {
+    "id": "P2-1",
+    "gameId": 1,
+    "gameName": "A",
+    "packName": "a",
+    "fullPrice": "a1",
+    "sellingPrice": "aa",
+    "suggestedPrice": "aa"
+  },
+  {
+    "id": "P2-2",
+    "gameId": 1,
+    "gameName": "A",
+    "packName": "aa*",
+    "fullPrice": "a1",
+    "sellingPrice": "aa",
+    "suggestedPrice": "aa"
+  },
+  {
+    "id": "P3",
+    "gameId": 1,
+    "gameName": "A",
+    "packName": "aaa",
+    "fullPrice": "a1",
+    "sellingPrice": "a1",
+    "suggestedPrice": "a1"
+  }
+]

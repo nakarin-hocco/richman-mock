@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "gameName": "AA",
+    "gameDesc": "A_Description",
+    "category": "topupid",
+    "idSpecs": [
+      {
+        "fId": 1,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "gameName": "BB*",
+    "gameDesc": "B_Description",
+    "category": "topupid",
+    "idSpecs": [
+      {
+        "fId": 2,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "gameName": "CC",
+    "gameDesc": "C_Description",
+    "category": "topupid",
+    "idSpecs": [
+      {
+        "fId": 5,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      }
+    ]
+  }
+]
