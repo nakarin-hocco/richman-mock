@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "gameName": "A",
+    "gameDesc": "A_Description",
+    "category": "topupid",
+    "idSpecs": [
+      {
+        "fId": 2,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      },
+      {
+        "fId": 3,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      }
+    ]
+  }
+]
