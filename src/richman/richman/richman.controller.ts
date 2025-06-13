@@ -1,6 +1,6 @@
 import { Controller, Get, Param, NotFoundException } from '@nestjs/common';
 
-import testcase from 'src/richman/richman/category/testcase-2.json';
+import testcase from 'src/richman/richman/category/testcase-1.json';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -27,7 +27,7 @@ export class RichmanController {
     const filePath = path.join(
       __dirname,
       'product',
-      `testcase-2-category-${gameId}.json`,
+      `testcase-1-category-${gameId}.json`,
     );
 
     if (!fs.existsSync(filePath)) {
