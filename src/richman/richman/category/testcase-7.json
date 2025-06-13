@@ -11,6 +11,20 @@
         "fType": "freetext",
         "dropdown": null,
         "isRequired": false
+      },
+      {
+        "fId": 2,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      },
+      {
+        "fId": 3,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
       }
     ]
   },

@@ -11,17 +11,16 @@
         "fType": "freetext",
         "dropdown": null,
         "isRequired": false
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "gameName": "B",
-    "gameDesc": "B_Description",
-    "category": "topupid",
-    "idSpecs": [
+      },
       {
         "fId": 2,
+        "fDesc": "",
+        "fType": "freetext",
+        "dropdown": null,
+        "isRequired": false
+      },
+      {
+        "fId": 3,
         "fDesc": "",
         "fType": "freetext",
         "dropdown": null,

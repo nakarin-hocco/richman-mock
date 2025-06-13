@@ -4,8 +4,8 @@
     "gameId": 1,
     "gameName": "A",
     "packName": "a",
-    "fullPrice": "a1",
-    "sellingPrice": "aa1*",
-    "suggestedPrice": "aaa1"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   }
 ]

@@ -31,12 +31,12 @@
   },
   {
     "id": 3,
-    "gameName": "C",
+    "gameName": "C*",
     "gameDesc": "C_Description",
     "category": "topupid",
     "idSpecs": [
       {
-        "fId": 5,
+        "fId": 4,
         "fDesc": "",
         "fType": "freetext",
         "dropdown": null,

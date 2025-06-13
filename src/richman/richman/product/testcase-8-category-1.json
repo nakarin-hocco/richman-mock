@@ -4,26 +4,26 @@
     "gameId": 1,
     "gameName": "A",
     "packName": "a",
-    "fullPrice": "a1",
-    "sellingPrice": "a1",
-    "suggestedPrice": "a1"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   },
   {
     "id": "P2",
     "gameId": 1,
     "gameName": "A",
     "packName": "aa*",
-    "fullPrice": "a1",
-    "sellingPrice": "a1",
-    "suggestedPrice": "a1"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   },
   {
     "id": "P3",
     "gameId": 1,
     "gameName": "A",
     "packName": "aaa",
-    "fullPrice": "a1",
-    "sellingPrice": "a1",
-    "suggestedPrice": "a1"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   }
 ]

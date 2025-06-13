@@ -1,7 +1,6 @@
-import { Controller, Get, Param, Res, NotFoundException } from '@nestjs/common';
+import { Controller, Get, Param, NotFoundException } from '@nestjs/common';
 
-import testcase from 'src/richman/richman/category/testcase-20.json';
-import { Response } from 'express';
+import testcase from 'src/richman/richman/category/testcase-2.json';
 import * as path from 'path';
 import * as fs from 'fs';
 
@@ -9,29 +8,43 @@ import * as fs from 'fs';
 export class RichmanController {
   @Get('games')
   findGames() {
-    return testcase;
+    console.log('findGames');
+    const timeStamp = new Date().toISOString();
+
+    return {
+      message: {
+        code: 'P_I_0000',
+        desc: 'Success.',
+        timeStamp,
+      },
+      data: testcase,
+    };
   }
 
   @Get('gamePrices/:gameId')
-  findGamePrices(@Param('gameId') gameId: number, @Res() res: Response) {
-    // return testcase;
+
+  findGamePrices(@Param('gameId') gameId: number) {
     const filePath = path.join(
       __dirname,
       'product',
-      `testcase-1-category-${gameId}.json`,
+      `testcase-2-category-${gameId}.json`,
     );
-    console.log(filePath);
 
     if (!fs.existsSync(filePath)) {
       throw new NotFoundException(`File with id ${gameId} not found`);
     }
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const testcase = JSON.parse(fileContent);
 
-    res.setHeader('Content-Type', 'application/json');
-    res.setHeader(
-      'Content-Disposition',
-      `attachment; filename="${gameId}.json"`,
-    );
+    const timeStamp = new Date().toISOString();
 
-    return res.sendFile(filePath);
+    return {
+      message: {
+        code: 'P_I_0000',
+        desc: 'Success.',
+        timeStamp,
+      },
+      data: testcase,
+    };
   }
 }

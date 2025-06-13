@@ -4,8 +4,8 @@
     "gameId": 3,
     "gameName": "CC",
     "packName": "cc",
-    "fullPrice": "c",
-    "sellingPrice": "c",
-    "suggestedPrice": "c"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   }
 ]

@@ -4,8 +4,8 @@
     "gameId": 2,
     "gameName": "BB",
     "packName": "b",
-    "fullPrice": "b1",
-    "sellingPrice": "b1",
-    "suggestedPrice": "b1"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   }
 ]

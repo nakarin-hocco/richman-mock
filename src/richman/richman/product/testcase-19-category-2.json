@@ -1,20 +1,20 @@
 [
   {
-    "id": "P3-1",
+    "id": "P2",
     "gameId": 2,
     "gameName": "BB*",
     "packName": "b",
-    "fullPrice": "b",
-    "sellingPrice": "bb",
-    "suggestedPrice": "bb"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   },
   {
-    "id": "P3-2",
+    "id": "P3",
     "gameId": 2,
     "gameName": "BB*",
     "packName": "b",
-    "fullPrice": "b",
-    "sellingPrice": "b",
-    "suggestedPrice": "b"
+    "fullPrice": 1,
+    "sellingPrice": 1,
+    "suggestedPrice": 1
   }
 ]

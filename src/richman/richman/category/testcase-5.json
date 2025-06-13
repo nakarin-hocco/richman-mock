@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "gameName": "AA",
+    "gameName": "A",
     "gameDesc": "A_Description",
     "category": "topupid",
     "idSpecs": [
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "gameName": "BB",
+    "gameName": "B",
     "gameDesc": "B_Description",
     "category": "topupid",
     "idSpecs": [
